@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(223, 237, 216);
+}
+
+#gallery {
+    text-align: center;
+    margin-top: 100px;
+}
+#gallery h2 {
+    margin-bottom: 1em;
+}
+
+.slider {
+    width: 1440px;
+    height: 500px;
+    outline: 2px solid #333;
+    position: relative;
+    margin: 0 auto; 
+    overflow: hidden;
+}
+.slider > img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*
+ 현재 이미지 fadeIn
+ 나머지 이미지 fadeOut ->js에서
+*/
+.prevBtn, .nextBtn {
+    width: 48px;
+    height: 48px;
+    border-style: none;
+    background: transparent;
+    display: inline-block;
+    
+}
+.arrow-ui {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 270px;
+}
+.prevBtn {
+    margin-right: 1360px;
+}
+
+.indicator a {
+    width: 16px;
+    height: 16px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+.indicator a:nth-child(2) {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.indicator {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 80px;
+}

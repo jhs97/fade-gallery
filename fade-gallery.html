@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fade-Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="slider">
+            <img src="images/summer01.jpg" alt="1">
+            <img src="images/summer02.jpg" alt="2">
+            <img src="images/summer03.jpg" alt="3">
+        </div>
+        <div class="arrow-ui">
+            <button class="prevBtn"><img src="images/aroow1.png" alt="prev"></button>
+            <button class="nextBtn"><img src="images/arrow2.png" alt="next"></button>
+        </div>        <div class="indicator">
+            <a href="#" onclick="changeSlider(0)"> </a>
+            <a href="#" onclick="changeSlider(1)"> </a>
+            <a href="#" onclick="changeSlider(2)"> </a>
+        </div>        
+    </section>
+</body>
+</html>
