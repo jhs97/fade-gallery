@@ -1,5 +1,6 @@
-﻿# fade-gallery
+# fade-gallery
 Fade Effect Gallery
+damo : https://jhs97.github.io/fade-gallery/
 
 ## 기능
 1. 이전/다음 이미지 보기
